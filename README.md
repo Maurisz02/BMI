@@ -1,4 +1,4 @@
-# [Név]
+# Pintér Ádám
 
 ## Hogyan kezdj neki?
 

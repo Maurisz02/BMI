@@ -1,0 +1,65 @@
+#mainBox{
+    background-color: darkorange;
+    text-align: justify;
+    margin: 10;   
+    padding: 20px;
+}
+
+#mainBox span{
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+}
+
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+.inputlabel{  
+    position:relative;
+    display:inline-block;
+    justify-content:right;
+    margin-left: 30%;
+    text-align: right;
+}
+
+#szamitas{
+    background-color:white;
+    color: darkorange;
+    border: none;
+    margin: 30,0,10,30;
+    font-size:20px;   
+}
+
+#bmiResult{
+    font-style: italic;
+}
+
+h1{
+    color:darkorange;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+section span{
+    padding: 0;
+    position: absolute;
+    margin-left: 30%;
+    text-align: center;
+}
+
+section p{
+    font-size: 22px;
+}
+
