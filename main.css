@@ -1,6 +1,7 @@
 #mainBox{
     background-color: darkorange;
-    text-align: justify;
+    justify-items: flex-end;
+    justify-content: flex-end;
     margin: 10;   
     padding: 20px;
 }
@@ -21,11 +22,7 @@ label{
 }
 
 .inputlabel{  
-    position:relative;
-    display:inline-block;
-    justify-content:right;
     margin-left: 30%;
-    text-align: right;
 }
 
 #szamitas{
@@ -36,11 +33,11 @@ label{
     font-size:20px;   
 }
 
-#bmiResult{
+#bmiResult, #idealis{
     font-style: italic;
 }
 
-h1{
+h1, h2{
     color:darkorange;
 }
 
@@ -54,12 +51,23 @@ section{
 
 section span{
     padding: 0;
-    position: absolute;
     margin-left: 30%;
     text-align: center;
 }
 
 section p{
     font-size: 22px;
+}
+
+#also{
+    margin-left: 5%;
+}
+
+#vegszo{
+    color: black;
+    display: inline-flex;
+    text-align: center;
+    margin-left: 35%;
+    
 }
 

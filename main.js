@@ -5,7 +5,7 @@
 
     let bmi = w / (Math.pow(h,2));
 
-    document.getElementById('bmiResult').textContent = bmi.toFixed(2);
+    document.getElementById('bmiResult').textContent = bmi.toFixed(2)+ " kg";
     console.log(bmi.toFixed(2));
     if(bmi.toFixed(2)<18.5){
         document.getElementById('sovany').style.background = "darkorange";
@@ -26,6 +26,12 @@
         document.getElementById('iiifok').style.background = "darkorange";
         document.getElementById('iiifok').style.color = "white";
     }
+
+    let idealis = ((h*100)-100)-(h*0.10);
+    document.getElementById('idealis').textContent = idealis.toFixed(2) + " kg";
+
+    document.getElementById('also').textContent = idealis.toFixed(2) - 9.8;
+    document.getElementById('felso').textContent = idealis.toFixed(2) +9.8 + "kg";
  }
 
 function init(){
